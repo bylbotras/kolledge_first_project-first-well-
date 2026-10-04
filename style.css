@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a5568;
+}
+h2 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #2d3748;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.option-btn {
+    background: #edf2f7;
+    border: 2px solid #cbd5e0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    text-align: left;
+    transition: all 0.2s ease;
+}
+.option-btn:hover {
+    background: #e2e8f0;
+    border-color: #a0aec0;
+}
+.option-btn.selected {
+    background: #ebf8ff;
+    border-color: #3182ce;
+    color: #2b6cb0;
+}
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    background: #4c51bf;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn:hover {
+    background: #434190;
+}
+.hidden {
+    display: none;
+}
+#result-content {
+    background: #f7fafc;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #4c51bf;
+    margin-top: 15px;
+    line-height: 1.5;
+}
